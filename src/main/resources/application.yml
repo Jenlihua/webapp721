@@ -1,0 +1,29 @@
+#logging:
+ # level:
+  #   root: TRACE
+  #   root: TRACE
+#logging:
+ #   config: classpath:logback-spring.xml
+
+server:
+    port: 9091
+
+spring:
+    profiles.active: @profileActive@
+
+---
+spring:
+    profiles: dev
+log:
+    path: ./devlog
+---
+spring:
+    profiles: test
+log:
+    path: ./testlog
+
+#logback:
+ #   logdir:
+  #      test: ./testlog
+   #     dev: ./devlog/{logback.appname}
+
