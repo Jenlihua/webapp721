@@ -26,11 +26,11 @@ It all had been configed when maven package.
 
 ##### 3.the key is:
 *   @profileActive@ in application.yml.
-*   <springProfile name="dev"> tag in logback-spring.xml
-*   <springProperty > tag in logback-spring.xml
-*   and <profiles> <properties> tags in pom.xml
-*   <filters> tag in pom.
-*   <resource.flitering> tags in pom.
+*   springProfile name="dev" tag in logback-spring.xml
+*   springProperty  tag in logback-spring.xml
+*   and profiles properties tags in pom.xml
+*   filters tag in pom.
+*   resource flitering tags in pom.
 
 ##### 4.todo:
 ##### I'll try to read .yml for Beans next time.See you.
